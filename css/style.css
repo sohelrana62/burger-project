@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.img-fluid{
+	/*max-width: 100%;
+	height: auto;*/
+}
+.img-fluid1{
+	width: 100%;
+	height: auto;
+}
+/***
+*  font-family: 'Alfa Slab One', cursive;
+   font-family: 'Bebas Neue', cursive;
+   font-family: 'Montserrat', sans-serif;
+***/
+/*header section code*/
+header{
+	width: 100%;
+	padding: 32px;
+	position: absolute;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navber{
+	display: flex;
+	justify-content: space-between;
+}
+.top-menu{
+	margin-bottom: 16px; 
+}
+.top-menu span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700px;
+	color: #3d2514;
+}
+.top-menu img{
+	vertical-align: middle;
+	margin-right: 16px;
+}
+.menus{
+	text-align: right;
+}
+.bottum-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 48px; 
+}
+.bottum-menu ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/*banner section code*/
+
+#banner{
+	width: 100%;
+	background-image: url(../img/backg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner-content{
+	display: flex;
+}
+.banner-left{
+	flex-basis: 50%;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+.banner-right{
+	flex-basis: 50%;
+	padding-top: 2rem; 
+}
+.banner-left p{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 300;
+	font-size: 24px;
+	border: 2px dashed #3d2514;
+	color: #3d2514;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 2px 8px;
+}
+.banner-left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 700;
+	font-size: 114px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px rgb(255 255 255 /70%);
+}
+.banner-left h2{
+    font-family: 'Alfa Slab One', cursive;
+	font-weight: 700;
+	font-size: 56px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px rgb(255 255 255 /70%);
+}
+
+/*burger-banner section code*/
+
+#burger-banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.burger-banner-contenet{
+	display: flex;
+}
+.burger-banner-left .burger-banner-right{
+	flex-basis: 50%;
+}
+.burger-banner-item{
+	position: relative;
+	margin: 20px;
+}
+.text-content{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+.text-content h3{
+	 font-family: 'Bebas Neue', cursive;
+	 font-size: 25px;
+	 color: white;
+	 font-weight: 400;
+	 text-transform: uppercase;
+}
+.text-content h4{
+	font-family: 'Bebas Neue', cursive;
+	 font-size: 42px;
+	 color: white;
+	 font-weight: 400;
+	 text-transform: uppercase;
+}
+.mb-2{
+	margin-bottom: 28px; 
+}
+
+/*order section code */
+
+#order-section{
+	width: 100%;
+	padding: 20px;
+}
+
+.top-section{
+	text-align: center;
+}
+
+.top-section span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 400px;
+	background-color: #ffc045;
+	text-transform: uppercase;
+	color: #3d2514;
+	padding: 16px 24px 16px 24px;
+	display: inline-block;
+	line-height: 1px;
+}
+.top-section h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	color: #3d2514;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 16px;
+}
+.top-section p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+}
+.burger-gallery{
+	margin: 4rem;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.burger-item{
+	text-align: center;
+}
+
+.burger-item h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #3d2514;
+	font-weight: bold;
+	margin-top: 16px; 
+}
+.burger-item p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	margin-bottom: 16px; 
+}
+
+.burger-item .order-btn{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 16px;
+	color: white;
+	background-color: #bf2222;
+	text-transform: uppercase;
+	padding: 16px 32px;
+	display: inline-block;
+	border-radius: 5px; 
+}
+
+/*slider section*/
+
+#slider{
+	width: 100%;
+	padding: 60px 0px;
+}
+.events-slider{
+	display: flex;
+	box-shadow: 5px 5px 15px 10px rgb(167 164 164 / 30%) !important;
+	padding: 20px;
+}
+.slider-left{
+	flex-basis: 50%;
+	padding: 32px;
+}
+.slider-right{
+	flex-basis: 50%;
+}
+.slider-left h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 400px;
+	letter-spacing: 1px;
+}
+.slider-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #3d2514;
+	font-weight: bold;
+}
+.slider-left p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+}
+.owl-nav{
+	display: none
+}
+.owl-dots{
+	position: absolute;
+    bottom: 10px;
+    left: 42px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+
+/*form section */
+#form{
+	width: 100%;
+	background-image: url(../img/bg5.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+}
+.top-section h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 400px;
+	letter-spacing: 1px;
+}
+
+.form-body{
+	width: 60%;
+	margin: 0px auto;
+}
+.form-body form{
+	text-align: center;
+	margin-top: 2rem;
+}
+.form-group{
+	margin-bottom: 16px;
+	margin-top: 16px; 
+	justify-content: space-between;
+}
+.form-control{
+	padding: 16px;
+	width: 48%;
+}
+.form-control::placeholder, .form-control{
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: black;
+	border-radius: 5px;
+	border-color: #000;
+}
+.form-control:focus, .form-control:focus::placeholder{
+	outline-color: blue;
+	color: blue;
+}
+.form-btn{
+	font-family: 'Alfa Slab One', cursive !important;
+	color: white !important;
+    background-color: #bf2222 !important;
+    border: 0 !important;
+    font-size: 16px;
+}
+ .footer-img img{
+	width: 100% !important;
+	margin-top: 60px !important;
+
+}
